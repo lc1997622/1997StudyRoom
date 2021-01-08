@@ -25,19 +25,23 @@
   },
   "tabBar": {
     "backgroundColor": "#FFD700",
+    "selectedColor": "#FFFFF0",
     "list": [
       {
         "pagePath": "pages/MyIndex/MyIndex",
+        "selectedIconPath": "images/shouyebai.png",
         "iconPath": "images/shouye.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/userConsole/userConsole",
+        "selectedIconPath": "images/dingbai.png",
         "iconPath": "images/ding.png",
         "text": "订座"
       },
       {
         "pagePath": "pages/index/index",
+        "selectedIconPath": "images/wodebai.png",
         "iconPath": "images/wode.png",
         "text": "我的"
       }
