@@ -1,2 +1,19 @@
-<!--miniprogram/pages/MyInfo/MyInfo.wxml-->
-<text>miniprogram/pages/MyInfo/MyInfo.wxml</text>
+<van-row>
+  <van-col span="12">
+   <van-image
+    round
+    width="5rem"
+    height="5rem"
+    src="https://img.yzcdn.cn/vant/cat.jpeg"
+   />
+  </van-col>
+  <van-col span="12" id="login_button">
+   <van-button plain type="primary" bind:click="Login">请先登录</van-button>
+  </van-col>
+</van-row>
+<van-divider />
+<van-grid column-num="3">
+  <van-grid-item icon="photo-o" text="文字"/>
+  <van-grid-item icon="photo-o" text="文字"/>
+  <van-grid-item icon="photo-o" text="文字"/>
+</van-grid>

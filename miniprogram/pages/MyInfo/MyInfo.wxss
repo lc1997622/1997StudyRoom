@@ -1,1 +1,5 @@
 /* miniprogram/pages/MyInfo/MyInfo.wxss */
+
+#login_button{
+  align-items: center;
+}

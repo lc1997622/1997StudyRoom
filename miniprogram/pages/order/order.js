@@ -1,4 +1,4 @@
-// pages/chooseLib/chooseLib.js
+// miniprogram/pages/order/order.js
 Page({
 
   /**

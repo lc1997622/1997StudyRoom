@@ -2,7 +2,7 @@
   "miniprogramRoot": "miniprogram/",
   "cloudbaseRoot": "cloudbase/",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -34,8 +34,7 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": [
-    ],
+    "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "appid": "wx7943ce020c0045a0",

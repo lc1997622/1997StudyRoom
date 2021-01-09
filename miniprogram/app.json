@@ -1,20 +1,8 @@
 {
   "pages": [
+    "pages/MyInfo/MyInfo",
     "pages/MyIndex/MyIndex",
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
-    
+    "pages/order/order"
   ],
   "window": {
     "backgroundColor": "#FFD700",
@@ -34,18 +22,27 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/userConsole/userConsole",
+        "pagePath": "pages/order/order",
         "selectedIconPath": "images/dingbai.png",
         "iconPath": "images/ding.png",
         "text": "订座"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/MyInfo/MyInfo",
         "selectedIconPath": "images/wodebai.png",
         "iconPath": "images/wode.png",
         "text": "我的"
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-divider": "@vant/weapp/divider/index"
+  }
 }
