@@ -10,7 +10,7 @@
     "minified": true,
     "newFeature": true,
     "coverView": true,
-    "nodeModules": false,
+    "nodeModules": true,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
@@ -34,7 +34,8 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": [],
+    "packNpmRelationList": [
+    ],
     "minifyWXSS": true
   },
   "appid": "wx7943ce020c0045a0",
